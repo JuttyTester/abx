@@ -1,0 +1,6 @@
+
+github "Moya/Moya"
+github "ReactiveX/RxSwift"
+github "Swinject/Swinject"
+github "johnsundell/unbox"
+github "freshOS/Stevia"
