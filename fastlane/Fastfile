@@ -1,0 +1,31 @@
+# More documentation about how to customize your build
+# can be found here:
+# https://docs.fastlane.tools
+fastlane_version "2.68.0"
+
+# This value helps us track success metrics for Fastfiles
+# we automatically generate. Feel free to remove this line
+# once you get things running smoothly!
+generated_fastfile_id "2b0ed5f5-821c-40d9-8056-d1e2ce4927c2"
+
+default_platform :ios
+
+# Fastfile actions accept additional configuration, but
+# don't worry, fastlane will prompt you for required
+# info which you can add here later
+lane :release do
+
+  sleep 30
+
+  # increment build number
+  # increment_build_number(
+  #   build_number: latest_testflight_build_number + 1,
+  #   xcodeproj: "Jutty.xcodeproj"
+  # )
+
+  # build app
+
+  #upload to appstore
+  ##upload_to_app_store
+
+end
